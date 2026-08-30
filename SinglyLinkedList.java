@@ -1,3 +1,6 @@
+// Code written by YAM JUN JIE
+// junjie.yam.2025@computing.smu.edu.sg
+
 public class SinglyLinkedList<E> {
     
     private Node<E> head = null;
