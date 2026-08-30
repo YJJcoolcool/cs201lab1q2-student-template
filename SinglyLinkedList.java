@@ -92,8 +92,8 @@ public class SinglyLinkedList<E> {
 
         Node<E> removedNode = this.tail;
         this.size--;
-        
-        if (this.size == 1) {
+
+        if (this.size == 0) {
             this.head = null;
             this.tail = null;
             return removedNode.getElement();
