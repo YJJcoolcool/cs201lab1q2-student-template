@@ -88,10 +88,10 @@ public class SinglyLinkedList<E> {
     public E removeLast(){
         if (isEmpty()) {
             return null;
-
         }
 
         Node<E> removedNode = this.tail;
+        this.size--;
         
         if (this.size == 1) {
             this.head = null;
